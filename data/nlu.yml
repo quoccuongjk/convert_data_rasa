@@ -1,0 +1,11 @@
+nlu:
+  - intent: greeting
+    examples: |
+      - Xin chào
+  - intent: find_hospital_clinic
+    examples: |
+      - tôi muốn tiêm vaccine
+      - tôi muốn tiêm vaccine ở bệnh viện
+  - intent: prevention
+    examples: |
+      - cách ngăn ngừa bệnh ung thư

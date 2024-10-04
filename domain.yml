@@ -1,0 +1,11 @@
+intents:
+- prevention
+- find_hospital_clinic
+- greeting
+responses:
+  utter_greeting:
+  - text: chào bạn tôi là chatbot
+  utter_find_hospital_clinic:
+  - text: xin cho tôi địa chỉ chỗ ở của bạn
+  utter_prevention:
+  - text: ăn nhiều rau xanh, tập thể dục

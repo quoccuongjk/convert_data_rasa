@@ -1,0 +1,13 @@
+stories:
+- story: story_0
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+- story: story_1
+  steps:
+  - intent: find_hospital_clinic
+  - action: utter_find_hospital_clinic
+- story: story_2
+  steps:
+  - intent: prevention
+  - action: utter_prevention
