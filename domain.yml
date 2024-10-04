@@ -1,7 +1,10 @@
 intents:
-- prevention
-- find_hospital_clinic
-- greeting
+  - greeting
+  - find_hospital_clinic
+  - find_hospital_clinic
+  - greeting
+  - prevention
+  - disease_info
 responses:
   utter_greeting:
   - text: chào bạn tôi là chatbot
@@ -9,3 +12,5 @@ responses:
   - text: xin cho tôi địa chỉ chỗ ở của bạn
   utter_prevention:
   - text: ăn nhiều rau xanh, tập thể dục
+  utter_disease_info:
+  - text: có 4 loại

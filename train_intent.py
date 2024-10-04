@@ -42,12 +42,12 @@ def get_intents_from_file(file_name):
 
 # Dự đoán intent cho một câu mới
 # Vòng lặp để nhập câu mới và dự đoán intent
-while True:
-    new_text = input("Nhập câu (hoặc gõ '/x' để thoát): ")
+# while True:
+#     new_text = input("Nhập câu (hoặc gõ '/x' để thoát): ")
     
-    if new_text == "/x":
-        print("Thoát chương trình.")
-        break
+#     if new_text == "/x":
+#         print("Thoát chương trình.")
+#         break
     
-    predicted_intent = model.predict([new_text])
-    print(f'Predicted intent: {predicted_intent[0]}')
+#     predicted_intent = model.predict([new_text])
+#     print(f'Predicted intent: {predicted_intent[0]}')

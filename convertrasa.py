@@ -14,6 +14,7 @@ for index, row in df.iterrows():
         nlu_data[intent] = []
     if user_example not in nlu_data[intent]:
         nlu_data[intent].append(user_example)
+
 nlu_data_formatted = []
 for intent, examples in nlu_data.items():
     formatted_examples = [example.strip() for example in examples]
@@ -21,6 +22,8 @@ for intent, examples in nlu_data.items():
         'intent': intent,
         'examples': formatted_examples
     })
+
+# Ghi file nlu.yml
 with open('data/nlu.yml', 'w', encoding='utf-8') as nlu_file:
     nlu_file.write("nlu:\n")
     for item in nlu_data_formatted:
@@ -38,6 +41,7 @@ for index, row in df.iterrows():
         responses[f'utter_{intent}'] = [] 
     if {'text': bot_response} not in responses[f'utter_{intent}']:  
         responses[f'utter_{intent}'].append({'text': bot_response})  
+
 stories_data = []
 story_steps = {} 
 
@@ -49,22 +53,25 @@ for index, row in df.iterrows():
 
     if story_key not in story_steps:
         stories_data.append({
-            'story': f'story_{len(stories_data)}',  
+            'story': f'story_{intent}', 
             'steps': [
                 {'intent': intent},
                 {'action': action}
             ]
         })
         story_steps[story_key] = True 
-domain_data = {
-    'intents': list(set(intents)),  
-    'responses': responses
-}
 
-
-
+# Cấu trúc domain_data
 with open('domain.yml', 'w', encoding='utf-8') as domain_file:
-    yaml.dump(domain_data, domain_file, allow_unicode=True, sort_keys=False)
-
+    domain_file.write("intents:\n")
+    for intent in intents:
+        domain_file.write(f"  - {intent}\n")
+    
+    domain_file.write("responses:\n")
+    for intent, response_list in responses.items():
+        domain_file.write(f"  {intent}:\n")
+        for response in response_list:
+            domain_file.write(f"  - text: {response['text']}\n")
+# Ghi file stories.yml
 with open('data/stories.yml', 'w', encoding='utf-8') as stories_file:
     yaml.dump({'stories': stories_data}, stories_file, allow_unicode=True, sort_keys=False)

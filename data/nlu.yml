@@ -9,3 +9,6 @@ nlu:
   - intent: prevention
     examples: |
       - cách ngăn ngừa bệnh ung thư
+  - intent: disease_info
+    examples: |
+      - có bao nhiêu loại bệnh trầm cảm
