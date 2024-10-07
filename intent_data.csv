@@ -100,8 +100,12 @@ text,intent
 "Goodbye",farewell
 "Chúc bạn một ngày tốt lành",farewell
 
-
-
+"Làm thế nào để theo dõi các triệu chứng của bệnh tiểu đường?",symptoms
+"Có những dấu hiệu nào cho thấy tôi cần đi khám sức khỏe ngay lập tức?",symptoms
+"Có những dấu hiệu nào cho thấy tôi cần thay đổi chế độ ăn uống?",symptoms
+"Có những dấu hiệu nào cho thấy tôi cần theo dõi sức khỏe cẩn thận hơn?",symptoms
+"Làm thế nào để nhận biết các triệu chứng sức khỏe bất thường?",symptoms
+"Các triệu chứng của huyết áp cao là gì?",symptoms
 "Bệnh chàm có triệu chứng ra sao?",symptoms
 "Bệnh Crohn có triệu chứng gì?",symptoms
 "Bệnh giang mai có triệu chứng gì?",symptoms
@@ -171,7 +175,7 @@ text,intent
 "Nhận biết triệu chứng của bệnh sốt xuất huyết như thế nào?",symptoms
 "Những triệu chứng của bệnh phổi tắc nghẽn mạn tính là gì?",symptoms
 "Tôi cần làm gì khi có triệu chứng buồn nôn và nôn?",symptoms
-"Tôi cần làm gì khi có triệu chứng buồn nôn và nôn?",symptoms
+
 "Tôi cần làm gì khi có triệu chứng sốt cao kéo dài?",treatment
 "Tôi cần lưu ý gì khi có triệu chứng chóng mặt?",symptoms
 "Tôi cần lưu ý gì khi có triệu chứng đau đầu kéo dài?",symptoms
@@ -227,7 +231,11 @@ text,intent
 
 
 
-
+"Có những phương pháp nào giúp cải thiện sức khỏe tâm lý?",treatment
+"Có những phương pháp nào giúp cải thiện sức khỏe tinh thần?",treatment
+"Có những phương pháp nào giúp giảm căng thẳng hiệu quả?",treatment
+"Làm thế nào để giảm cân an toàn và hiệu quả?",treatment
+"Làm thế nào để đối phó với căng thẳng và lo âu?",treatment
 "Các phương pháp điều trị đau đầu là gì?",treatment
 "Cách điều trị bệnh viêm phế quản là gì?",treatment
 "Cách điều trị viêm họng là gì?",treatment
@@ -2139,8 +2147,10 @@ text,intent
 "Tôi đã tiêm vaccine viêm gan A rồi chưa?",vaccination
 
 
-
-
+"Tôi có thể làm gì để cải thiện sức khỏe đường ruột?",prevention
+"Tôi có thể cải thiện sức khỏe tim mạch bằng cách nào?",prevention
+"Tôi cần biết cách đo huyết áp đúng cách.",prevention
+"Làm thế nào để giảm mức đường huyết một cách tự nhiên?",prevention
 "Biện pháp phòng ngừa bệnh hô hấp hiệu quả là gì?",prevention
 "Các biện pháp nào giúp bảo vệ sức khỏe cho người cao tuổi?",prevention
 "Các biện pháp nào giúp bảo vệ sức khỏe cho người làm việc trong ngành xây dựng?",prevention
@@ -3191,7 +3201,8 @@ text,intent
 
 
 
-
+"Có những loại thực phẩm nào giúp kiểm soát mức đường huyết?",nutrition
+"Chế độ ăn uống nào tốt cho người có mức đường huyết cao?",nutrition
 "Bệnh nhân cao huyết áp có nên ăn cá không?",nutrition
 "Bệnh nhân cao huyết áp có nên ăn dưa muối không?",nutrition
 "Bệnh nhân cao huyết áp có nên ăn muối không?",nutrition
@@ -3477,18 +3488,45 @@ text,intent
 "Tôi nên chọn loại trái cây nào cho sức khỏe?",nutrition
 "Tôi nên chọn thực phẩm như thế nào để giảm cân?",nutrition
 "Tôi nên dùng loại trà nào tốt cho sức khỏe?",nutrition
+"Làm thế nào để đánh giá hiệu quả của chế độ ăn uống đối với sức khỏe?",nutrition
 
+"Tôi có thể chia sẻ kinh nghiệm theo dõi sức khỏe với ai?",common_health_questions
+"Tôi cần lưu ý gì khi theo dõi cân nặng?",common_health_questions
+"Làm thế nào để theo dõi sức khỏe của người cao tuổi?",common_health_questions
+"Làm thế nào để theo dõi sức khỏe của trẻ nhỏ?",common_health_questions
+"Làm thế nào để theo dõi sức khỏe tâm lý?",common_health_questions
+"Làm thế nào để theo dõi và điều chỉnh chế độ ăn uống của mình?",common_health_questions
+"Làm thế nào để thiết lập một kế hoạch theo dõi sức khỏe cá nhân?",common_health_questions
+"Làm thế nào để tìm kiếm thông tin sức khỏe đáng tin cậy trên mạng?",common_health_questions
+"Làm thế nào để tìm kiếm thông tin y tế từ các nguồn đáng tin cậy?",common_health_questions
+"Làm thế nào để xây dựng kế hoạch tập luyện hiệu quả?",common_health_questions
+"Tại sao việc theo dõi cân nặng lại quan trọng?",common_health_questions
 
-
-
-
+"Làm thế nào để quản lý căng thẳng hiệu quả trong cuộc sống hàng ngày?",common_health_questions
+"Làm thế nào để gia đình tôi có thể cùng nhau theo dõi sức khỏe?",common_health_questions
+"Làm thế nào để duy trì động lực trong việc theo dõi sức khỏe?",common_health_questions
+"Làm thế nào để duy trì thói quen tập luyện hàng ngày?",common_health_questions
+"Làm thế nào để duy trì thói quen theo dõi sức khỏe bền vững?",common_health_questions
+"Làm thế nào để duy trì thói quen theo dõi sức khỏe hàng ngày?",common_health_questions
+"Làm thế nào để giúp người khác theo dõi sức khỏe hiệu quả?",common_health_questions
+"Có thể sử dụng thực phẩm chức năng để hỗ trợ sức khỏe không?",common_health_questions
+"Có những lưu ý gì khi theo dõi sức khỏe của người lớn tuổi?",common_health_questions
+"Có những lưu ý gì khi theo dõi sức khỏe của trẻ em?",common_health_questions
+"Có những lưu ý gì khi theo dõi sức khỏe tâm thần?",common_health_questions
+"Làm thế nào để biết khi nào cần đi khám bác sĩ về sức khỏe?",common_health_questions
+"Làm thế nào để biết khi nào cần đi khám sức khỏe định kỳ?",common_health_questions
+"Làm thế nào để cải thiện chất lượng giấc ngủ?",common_health_questions
+"Làm thế nào để cải thiện sức khỏe tinh thần thông qua việc theo dõi?",common_health_questions
+"Làm thế nào để đánh giá sự tiến bộ trong việc cải thiện sức khỏe?",common_health_questions
 
 "Tôi cần khám sức khỏe định kỳ bao lâu một lần?",common_health_questions
 "Tôi nên tập thể dục như thế nào",common_health_questions
 "Cách hô hấp nhân tạo",common_health_questions
 "Cách nẹp cố định xương",common_health_questions
-
-
+"Các bài kiểm tra sức khỏe nào nên thực hiện hàng năm?",common_health_questions
+"Có những bài tập nào tốt cho sức khỏe tim mạch?",common_health_questions
+"Có cần phải tham khảo ý kiến bác sĩ khi tự theo dõi sức khỏe không?",common_health_questions
+"Có những dấu hiệu nào cho thấy cần thay đổi lối sống?",common_health_questions
 
 
 "Tôi muốn ghi chép chỉ số huyết áp của mình.",health_metrics
@@ -3500,6 +3538,46 @@ text,intent
 "Cách đo huyết áp đúng cách là gì?",health_metrics
 "Làm thế nào để theo dõi chỉ số đường huyết?",health_metrics
 "Tôi cần lưu ý gì khi theo dõi cân nặng?",health_metrics
+"Các chỉ số nào cần được theo dõi khi sử dụng thuốc?",health_metrics
+"Các chỉ số nào cần được theo dõi trong thai kỳ?",health_metrics
+"Các chỉ số nào cần theo dõi cho người mắc bệnh mãn tính?",health_metrics
+"Các chỉ số nào cần theo dõi cho người mắc bệnh tiểu đường?",health_metrics
+"Các chỉ số nào cần theo dõi đối với người cao tuổi?",health_metrics
+"Các chỉ số nào cần theo dõi trong quá trình điều trị bệnh?",health_metrics
+"Các chỉ số nào cần theo dõi trong quá trình phục hồi sức khỏe?",health_metrics
+"Các chỉ số nào tôi cần chú ý khi có tiền sử bệnh lý?",health_metrics
+"Các chỉ số sức khỏe nào cần theo dõi cho người béo phì?",health_metrics
+"Các chỉ số sức khỏe nào phù hợp với người ăn chay?",health_metrics
+"Các chỉ số sức khỏe nào tôi nên chia sẻ với bác sĩ?",health_metrics
+"Các chuyên gia y tế khuyên tôi nên theo dõi những chỉ số nào?",health_metrics
+"Các yếu tố nào ảnh hưởng đến chỉ số huyết áp của tôi?",health_metrics
+"Cách nào để theo dõi mức đường huyết hàng ngày?",health_metrics
+"Cần lưu ý gì khi theo dõi chỉ số sức khỏe?",health_metrics
+"Chế độ ăn ảnh hưởng đến mức đường huyết như thế nào?",health_metrics
+"Chế độ tập luyện có ảnh hưởng đến chỉ số sức khỏe không?",health_metrics
+"Có cách nào để theo dõi chỉ số sức khỏe khi đi du lịch không?",health_metrics
+"Có cách nào để theo dõi chỉ số sức khỏe mà không cần thiết bị không?",health_metrics
+"Có cách nào để theo dõi huyết áp mà không cần máy không?",health_metrics
+"Có cần phải theo dõi các chỉ số sức khỏe khi không có triệu chứng không?",health_metrics
+"Có cần phải theo dõi các chỉ số sức khỏe khi mang thai không?",health_metrics
+"Có những cách nào để cải thiện sức khỏe tim mạch một cách tự nhiên?",health_metrics
+"Có những loại máy đo huyết áp nào nên sử dụng?",health_metrics
+"Có thiết bị nào giúp tôi theo dõi sức khỏe không?",health_metrics
+"Làm sao để phân tích kết quả đo huyết áp?",health_metrics
+"Làm thế nào để đặt mục tiêu sức khỏe dựa trên chỉ số?",health_metrics
+"Làm thế nào để đo nhịp tim đúng cách?",health_metrics
+"Làm thế nào để ghi chép các chỉ số sức khỏe một cách nhất quán?",health_metrics
+"Làm thế nào để ghi chép chỉ số sức khỏe một cách có hệ thống?",health_metrics
+"Làm thế nào để ghi chép kết quả huyết áp một cách hiệu quả?",health_metrics
+"Làm thế nào để ghi lại cân nặng của tôi một cách hiệu quả?",health_metrics
+"Làm thế nào để phân tích xu hướng trong các chỉ số sức khỏe?",health_metrics
+"Làm thế nào để tạo nhật ký sức khỏe?",health_metrics
+"Làm thế nào để tạo thói quen ghi chép chỉ số sức khỏe hàng ngày?",health_metrics
+"Làm thế nào để theo dõi chỉ số đường huyết?",health_metrics
+"Làm thế nào để theo dõi sự thay đổi trong cân nặng theo thời gian?",health_metrics
+"Làm thế nào để tìm hiểu thêm về các chỉ số sức khỏe?",health_metrics
+"Thời gian lý tưởng để đo đường huyết là khi nào?",health_metrics
+
 
 "Tôi nên làm gì khi gặp trường hợp khẩn cấp?",emergency_guidelines
 "Hướng dẫn sơ cứu cho người bị ngất là gì?",emergency_guidelines
