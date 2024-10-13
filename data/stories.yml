@@ -1,17 +1,33 @@
 stories:
-- story: story_greeting
+- story: story_booking
   steps:
-  - intent: greeting
-  - action: utter_greeting
-- story: story_find_hospital_clinic
+  - intent: booking
+  - action: utter_booking
+- story: story_doctor
   steps:
-  - intent: find_hospital_clinic
-  - action: utter_find_hospital_clinic
-- story: story_prevention
+  - intent: doctor
+  - action: utter_doctor
+- story: story_clinic
   steps:
-  - intent: prevention
-  - action: utter_prevention
-- story: story_disease_info
+  - intent: clinic
+  - action: utter_clinic
+- story: story_hospital
   steps:
-  - intent: disease_info
-  - action: utter_disease_info
+  - intent: hospital
+  - action: utter_hospital
+- story: story_symptom
+  steps:
+  - intent: symptom
+  - action: utter_symptom
+- story: story_consultant
+  steps:
+  - intent: consultant
+  - action: utter_consultant
+- story: story_patient
+  steps:
+  - intent: patient
+  - action: utter_patient
+- story: story_health
+  steps:
+  - intent: health
+  - action: utter_health

@@ -1,0 +1,9 @@
+nlu:
+- intent: consultant
+  examples: |
+    - tôi muốn tiêm vaccine
+    - có bao nhiêu loại bệnh trầm cảm
+    - tôi cần thông tin về thuốc an thần
+    - Bé nhà tôi đi ị 5-6 lần/ngày trong 1 tuần. Trong vài ngày gần đây, nó đã tăng lên 7 và chúng rất nhiều nước với những sợi dây màu xanh lá cây bên trong. Anh ấy có vẻ không khỏe, tức là không có nhiệt độ và vẫn ăn uống. Bây giờ anh ấy bị hăm tã rất nặng do đi vệ sinh ...cứu với!
+    - Xin chào, Chồng tôi đang dùng Oxycodone do bị gãy chân/phẫu thuật. Anh ấy đã dùng thuốc giảm đau này được một tháng. Chúng tôi đang cố gắng thụ thai đứa con thứ hai. Thuốc này có ảnh hưởng đến thai nhi không? Hay sức khỏe của em bé? Hoặc nó có thể mang lại dị tật bẩm sinh? Cảm ơn.
+    - thưa ông, Chú TÔI mắc bệnh Phổi kẽ ILD. Qua nghiên cứu của tôi trên google, tôi thấy rằng điều quan trọng là phải biết nguyên nhân. Nguyên nhân tôi cảm thấy là do chai axit bị vỡ trong phòng tắm gây ra nhiều khói và lần đó anh ấy không thể bình thường trong 15-20 phút. khi đó anh ấy vẫn bình thường. Có thể đó là lý do dẫn đến ILD này. Hãy gợi ý chúng ta nên làm gì

@@ -5,10 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 #from sklearn.metrics import classification_report
 from sklearn import metrics
-# import spacy
 
-# # Tải mô hình spaCy
-# nlp = spacy.load('en_core_web_sm')
 # Đọc dữ liệu từ file CSV
 data = pd.read_csv('intent_data.csv')
 

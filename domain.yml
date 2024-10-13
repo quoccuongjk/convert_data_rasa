@@ -1,16 +1,32 @@
+version: "3.1"
+
 intents:
-  - greeting
-  - find_hospital_clinic
-  - find_hospital_clinic
-  - greeting
-  - prevention
-  - disease_info
+  - doctor
+  - hospital
+  - consultant
+  - symptom
+  - health
+  - patient
+  - booking
+  - clinic
+
 responses:
-  utter_greeting:
-  - text: chào bạn tôi là chatbot
-  utter_find_hospital_clinic:
-  - text: xin cho tôi địa chỉ chỗ ở của bạn
-  utter_prevention:
-  - text: ăn nhiều rau xanh, tập thể dục
-  utter_disease_info:
-  - text: có 4 loại
+  utter_doctor:
+  - text: "bạn đang muốn hỏi doctor"
+  utter_booking:
+  - text: "bạn đang muốn booking"
+  utter_clinic:
+  - text: "bạn đang muốn hỏi clinic"
+  utter_hospital:
+  - text: "bạn đang muốn hỏi hospital"
+  - text: "bạn đang muốn hỏi hospital phải không"
+  - text: "bạn đang muốn hỏi hospital phải không 1"
+  - text: "bạn đang muốn hỏi hospital phải không 12"
+  utter_symptom:
+  - text: "bạn đang muốn hỏi symptom"
+  utter_consultant:
+  - text: "bạn đang muốn hỏi consultant"
+  utter_patient:
+  - text: "bạn đang muốn hỏi patient"
+  utter_health:
+  - text: "bạn đang muốn hỏi health"

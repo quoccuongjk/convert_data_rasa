@@ -1,0 +1,9 @@
+nlu:
+- intent: symptom
+  examples: |
+    - tôi có triệu chứng sốt cao
+    - cục u dưới núm vú trái và đau bụng (nam) Xin chào, cách đây vài tuần tôi phát hiện có một cục u dưới núm vú, chạm vào rất đau và có kích thước bằng đồng 25 xu. Ngoài ra tôi còn bị đau bụng khiến tôi không thể ăn uống được. Tôi ngay lập tức cảm thấy no và cực kỳ đau đớn. Xin hãy giúp đỡ
+    - Tôi có một đứa con 5 tháng tuổi bị nghẹt mũi và ho dữ dội. Tiếng ho nghe có vẻ khàn khàn và khàn khàn. Cô ấy bắt đầu bị nghẹn khi ho và có chất nhầy chảy ra. Cô ấy còn bị sốt và sổ mũi. Tôi có nên đưa cô ấy đi cấp cứu không?
+    - Tôi F 38 có thể trạng tốt, thường xuyên tập thể dục (tập ba môn phối hợp) nhưng bị đau lưng vì nhiều lý do khác nhau trong suốt cuộc đời, giờ đây tôi thường xuyên thức dậy với tình trạng lưng dưới trầm trọng, đau hông mà không rõ lý do. hôm nay cơn đau gần như khiến tôi nghẹt thở khi tôi cử động. Đó là một cơn đau âm ỉ khi tôi vừa nằm xuống nhưng ngay khi tôi thực hiện bất kỳ cử động nào, tôi lại cảm thấy đau nhói và đôi khi lan xuống chân.
+    - Chồng tôi đang làm một dự án trong nhà thì đột nhiên có một vết sưng to khoảng nửa đô la xuất hiện ở chân trái của anh ấy, phía trong phía dưới đầu gối. Ông năm nay 69 tuổi, đã từng phẫu thuật 3 lần cách đây 7 năm. Nó nhức nhối khi nó lần đầu tiên xảy ra. Bây giờ không còn đau nữa. Anh ta đang ngồi với chân nâng cao. Đây có phải là trường hợp khẩn cấp không?
+    - xin chào, con trai chín tuổi của tôi có triệu chứng ho và cúm cách đây ba tháng và vẫn còn ho khan và đờm xanh. nó dường như đã đỡ hơn nhưng chưa bao giờ khỏi hẳn và bây giờ lại tái phát...anh ấy chỉ dùng thuốc kháng sinh một lần trong đời, điều đó cho thấy nhìn chung anh ấy khỏe mạnh và năng động...không bao giờ hụt hơi hay buồn nôn... vậy tại sao lại như vậy....

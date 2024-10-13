@@ -1,0 +1,5 @@
+nlu:
+- intent: patient
+  examples: |
+    - tôi thấy dịch vụ rất tốt
+    - Sáng nay tôi thức dậy và cảm thấy cả căn phòng quay cuồng khi tôi ngồi xuống. Tôi đi vào phòng tắm và bước đi loạng choạng, khi cố gắng tập trung thì tôi cảm thấy buồn nôn. Tôi cố nôn nhưng nó không ra.. Sau khi uống panadol và ngủ được vài tiếng, tôi vẫn cảm thấy như vậy.. Nhân tiện, nếu tôi nằm xuống hoặc ngồi xuống, đầu tôi không quay, chỉ khi tôi muốn di chuyển xung quanh rồi tôi cảm thấy cả thế giới đang quay cuồng.. Và đồng thời đó là cảm giác khó chịu ở dạ dày bình thường? Trước đó sau khi tôi nhẹ nhõm, vòng quay giảm dần nên tôi không chắc liệu nó có liên quan hay trùng hợp ngẫu nhiên.. Cảm ơn bác sĩ!

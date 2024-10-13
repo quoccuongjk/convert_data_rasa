@@ -1,0 +1,8 @@
+nlu:
+- intent: hospital
+  examples: |
+    - Thông tin bệnh viện mắt tphcm
+    - bệnh viện ở quận 5
+    - bệnh viện ở quận 7
+    - bệnh viện ở quận 8
+    - bệnh viện ở quận bình thạnh

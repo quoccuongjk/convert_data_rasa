@@ -1,0 +1,4 @@
+nlu:
+- intent: booking
+  examples: |
+    - tôi muốn đặt lịch hẹn vào thứ 3

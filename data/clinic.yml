@@ -1,0 +1,6 @@
+nlu:
+- intent: clinic
+  examples: |
+    - thông tin phòng khám ở quận 1
+    - phòng khám ở bình tân
+    - phòng khám chuyên mắt ở bình dương

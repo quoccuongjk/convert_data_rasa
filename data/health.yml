@@ -1,0 +1,4 @@
+nlu:
+- intent: health
+  examples: |
+    - tôi nên tập thể dục nhưu thế nào
